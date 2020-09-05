@@ -12,7 +12,7 @@ const Comments = (props) => {
 
   return (
     <div>
-      <h3>Comments of this Post</h3>
+      <h3>Comments on this Post </h3>
       {comments.map((comment) => (
         <SingleComment comment={comment} key={comment.id}></SingleComment>
       ))}
